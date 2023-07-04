@@ -10,6 +10,8 @@ class Profile(models.Model):
         on_delete=models.CASCADE
     )
 
+    USERNAME_FIELD = "email"
+
 
 class ProfileDetails(models.Model):
     profile = models.OneToOneField(Profile, on_delete=models.CASCADE)
@@ -41,4 +43,5 @@ class ProfileDetails(models.Model):
     # Добавете останалата информация, която искате да съхранявате
 
     def __str__(self):
-        return self.username
+        return self.user.email
+
