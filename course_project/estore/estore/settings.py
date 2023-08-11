@@ -123,5 +123,5 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 # EMAIL_USE_SSL = False  # Use True for SSL
 #
 # # Gmail username and password
-# EMAIL_HOST_USER = 'vladimirdjangotests@gmail.com'
-# EMAIL_HOST_PASSWORD = 'nsllbsehwcskpwkp'
+# EMAIL_HOST_USER = 'email'
+# EMAIL_HOST_PASSWORD = 'pass'
