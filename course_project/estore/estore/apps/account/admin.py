@@ -6,6 +6,8 @@ from ..catalogue.admin import CategoryAdmin, ProductTypeAdmin, ProductAdmin
 from ..catalogue.models import ProductType, Product, Category
 from ..checkout.admin import DeliveryOptionsAdmin
 from ..checkout.models import DeliveryOptions
+from ..orders.admin import OrderItemAdmin, OrderAdmin
+from ..orders.models import OrderItem, Order
 
 
 class AddressInline(admin.StackedInline):
@@ -49,3 +51,6 @@ staff_admin_site.register(Category, CategoryAdmin)
 staff_admin_site.register(ProductType, ProductTypeAdmin)
 staff_admin_site.register(Product, ProductAdmin)
 staff_admin_site.register(DeliveryOptions, DeliveryOptionsAdmin)
+staff_admin_site.register(OrderItem, OrderItemAdmin)
+staff_admin_site.register(Order, OrderAdmin)
+

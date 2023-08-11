@@ -4,7 +4,7 @@ from .models import Order, OrderItem
 
 
 @admin.register(Order)
-class DeliveryOptionsAdmin(admin.ModelAdmin):
+class OrderAdmin(admin.ModelAdmin):
     list_display = ("id", "user", "full_name", "created", "total_paid", "billing_status")
     list_filter = ("created", "billing_status",)
     search_fields = ("id", "full_name", "email", "phone", )
