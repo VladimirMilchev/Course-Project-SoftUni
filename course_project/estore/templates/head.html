@@ -1,0 +1,13 @@
+{% load static %}
+<head>
+    <meta charset="UTF-8"/>
+    <title>{% block title %}Store - Low Prices & more{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{% static 'bootstrap-5.3.0-dist/css/bootstrap.min.css' %}" rel="stylesheet">
+    <script src="{% static 'bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'core/css/base.css' %}">
+    <link rel="stylesheet" href="{% block stylesheet %}{% endblock %}">
+</head>

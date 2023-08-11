@@ -71,7 +71,49 @@ html, body, p, div{
     }
 }
 
+/* Basket Menu */
+
+.basket-qty{
+    color: #fff;
+    background: #d42114;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    height: 15px;
+    width: 14px;
+    position: absolute;
+    box-sizing: content-box;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px;
+    right: 10px;
+}
+
+.basket-btn{
+    position: relative;
+}
+
+.basket-btn:hover, .basket-btn:focus, .basket-btn:active, .basket-btn.active{
+    color:#d42114;
+    transition-duration: 0.4s;
+    background-color: #fff;
+}
+
+
 /* Footer */
+
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
 
 .footer > div > div > ul > li{
     padding-bottom:8px;
