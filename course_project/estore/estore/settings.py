@@ -123,8 +123,5 @@ EMAIL_USE_TLS = True  # Use False for SSL
 EMAIL_USE_SSL = False  # Use True for SSL
 
 # Gmail username and password
-EMAIL_HOST_USER = 'vladimirdjangotests@gmail.com'
-EMAIL_HOST_PASSWORD = 'nsllbsehwcskpwkp'
-
-
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+EMAIL_HOST_USER = 'email
+EMAIL_HOST_PASSWORD = 'pass'
